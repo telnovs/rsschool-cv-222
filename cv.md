@@ -1,7 +1,7 @@
 
 
 #Telnov Sergey #
-![Photo Telnov Sergey ](/../img/photo.png)
+![Photo Telnov Sergey ](img src="file:///home/serg/cod/img/photo.png)
 ### My contacts:
 Russia, Kemerovo, Leningradskiy Avenue 47b apt. 52. Tel .: + 7 -913-123-36-67
 
