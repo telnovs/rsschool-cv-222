@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+<div class="wrapper">
+  <main class="main-content">
+
+    <aside class="aside-content">
+      <figure>
+        <img src="img/photo.png" alt="Photo Telnov Sergey" class="my-photo">
+      </figure>
+
+      <h1>Telnov Sergey<br> <span>JavaScript developer</span></h1>
+
+      <h2>My contacts:</h2>
+      <ul class="contacts">
+        <li>
+          <a href="https://t.me/YevgenyShatalin">
+            <figure>
+              <img src="img/telegram.png" alt="telegram" class="social-img">
+              <span>Telegram</span>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:shatalin_ei@mail.ru">
+            <figure>
+              <img src="img/e-mail.png" alt="e-mail" class="social-img">
+              <span>E-mail</span>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="tel:+79131233667">
+            <figure>
+              <img src="img/phone-call.png" alt="phone" class="social-img">
+              <span>+7-913-123-3667</span>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/yevgeniy-shatalin/">
+            <figure>
+              <img src="img/free-icon-linkedin-logo-61109.png" alt="linkedin" class="social-img">
+              <span>LinkedIn</span>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/EugeneShatalin">
+            <figure>
+              <img src="img/free-icon-github-sign-25657.png" alt="GitHub" class="social-img">
+              <span>GitHub</span>
+            </figure>
+          </a>
+        </li>
+      </ul>
+    </aside>
+
+<div>
+    <section class="section-content">
+      <h2>About me</h2>
+      <p>At the moment I work as a communications engineer, and I have been familiar with programming for a long time. I have a specialized higher education. After graduating from the university, there was not opportunity to get a job as a programmer, since this area was not very developed in our country at that time. But all the time I tried to study something, wrote something in C ++, PHP, made simple sites for my acquaintances. Now I decided to finally become a developer, while I am intensively studying frontend and React.js. In the future, I will study Node.js and become a full-stack JavaScript developer.</p>
+    </section>
+
+    <section class="section-content">
+      <h2>English level and education</h2>
+      <p>My English level is A1.</p>
+      <p>I study English every day. I hope that I will be at least A2 by the end of the year.</p>
+    </section>
+
+    <section class="section-content">
+      <h2>Hard skills</h2>
+      <ul>   
+        <li>Basic knowledge of JavaScript, more in-depth knowledge of the hypertext markup language HTML, the language of CSS stylesheets.</li>
+        <li>I studied and wrote a little
+            on React.js.</li>
+        <li>Little experience in developing sites on CMS WordPress using MySQL databases.</li>
+      </ul>
+    </section>
+
+    <section class="section-content">
+      <h2>An example of my code</h2>
+
+      <h3>Codewars</h3>
+      <pre>
+        <code>
+          function solution(number){
+            var sum = 0;
+
+            for(var i = 1;i &lt; number; i++){
+              if(i % 3 == 0 || i % 5 == 0){
+                sum += i
+              }
+            }
+            return sum;
+          }
+        </code>
+      </pre>
+
+      <h3>React.js</h3>
+      <pre>
+        <code>
+          import React from 'react';
+
+          create sequence hibernate_sequence start with 1 increment by 1;
+
+            create table matrix_types
+            (
+                id   int8 identity,
+                name varchar(255) unique,
+                primary key (id)
+            );
+
+            create table matrices
+            (
+                id     int8 not null,
+                type   int8 references matrix_types(id),
+                size   int4,
+                serial varchar(255),
+                number int4,
+                visible boolean default(false),
+                primary key (id)
+            );
+
+            create table baked_frames
+            (
+                id int8 identity,
+                timestamp timestamp not null,
+                matrix_id int8 not null references matrices (id),
+                baking_time_1 time not null,
+                baking_time_2 time,
+                success boolean not null,
+                id_in_1c varchar(15) unique
+            );
+
+        </code>
+      </pre>
+    </section>
+
+    <section class="section-content">
+      <h2>Work experience</h2>
+      <p>
+        Not much experience in commercial development (I only did educational projects in Wordpress and React.js, as well as in pure JavaScript, HTML, CSS)
+      </p>
+      <p>
+        At the moment I am  started a course on JavaScript on the RS School platform,  read articles on <a href="https://learn.javascript.ru">https://learn.javascript.ru</a>
+      </p>
+      <p>
+        I practice the acquired knowledge on educational projects, solve tasks at <a href="https://www.codewars.com">https://www.codewars.com</a>>
+      </p>
+    </section>
+    </div>
+
+  </main>
+
+  <footer class="footer-content">
+    <p>&copy; Telnov Sergey 2021</p>
+
+    <figure>
+      <a href="https://github.com/EugeneShatalin">
+        <img src="img/free-icon-github-sign-25657.png" alt="github-logo" class="github">
+        <span>My GitHub</span>
+      </a>
+    </figure>
+
+    <figure>
+      <a href="https://rs.school/js/">
+        <img src="https://rs.school/images/rs_school_js.svg" alt="The Rolling Scopes" class="rs-school">
+      </a>
+    </figure>
+
+  </footer>
+</div>
+</body>
+</html>
